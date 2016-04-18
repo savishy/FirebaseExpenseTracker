@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="firebase_url"></string>
+    <string name="firebase_url">https://foo.firebaseio.com</string>
+    <string name="firebase_categories">categories</string>
+    <string name="firebase_expenses">expenses</string>
+    <integer name="rand_len">10</integer>
+    <string-array name="expense_categories">
+        <item>grocery</item>
+        <item>rent</item>
+        <item>utilities</item>
+        <item>bills</item>
+        <item>shopping</item>
+        <item>medical</item>
+        <item>travel</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="income_categories">
+        <item>salary</item>
+        <item>reimbursement</item>
+        <item>other</item>
+    </string-array>
 </resources>
